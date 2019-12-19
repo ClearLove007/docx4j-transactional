@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.transactiondynamic.mapper.severnt.UserMapper">
+
+    <select id="selectAll" resultType="com.example.transactiondynamic.entity.User">
+        select * from tbl_user_info
+    </select>
+
+    <insert id="insert" parameterType="com.example.transactiondynamic.entity.User">
+        insert into tbl_user_info values(#{user.id},#{user.name})
+    </insert>
+
+</mapper>
