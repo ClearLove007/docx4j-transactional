@@ -1,7 +1,6 @@
 package com.example.transactiondynamic.mapper.master;
 
 import com.example.transactiondynamic.entity.User;
-import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
